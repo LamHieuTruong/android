@@ -70,4 +70,12 @@
         tools:layout_editor_absoluteX="51dp"
         tools:layout_editor_absoluteY="509dp" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="216dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/how_we_work___1_"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="597dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout> 699539

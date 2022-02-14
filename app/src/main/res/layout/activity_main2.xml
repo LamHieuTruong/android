@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7F4F6"
+    app:layout_constraintBaseline_creator="#C7F4F6 100% #D1F4F6 100% #E5F4F5 100% #00CCF9 100%"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/lock"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/forget_password"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="352dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/provide_your_accounts_email_for_which_you_want_to_reset_your_password"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_6__1_"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_744492898368"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/email"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="347dp"
+        android:layout_height="53dp"
+        android:text="NEXT"
+        android:textColor="#151414"
+        app:backgroundTint="#FFEB3B"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
